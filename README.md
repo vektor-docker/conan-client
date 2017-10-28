@@ -1,4 +1,6 @@
-Клиент менеджера зависимостей [conan](https://conan.io/)
+# Клиент менеджера зависимостей [conan](https://conan.io/)
+
+[ ![Download](https://api.bintray.com/packages/vektory79/docker/vektory79%3Aconnan-client/images/download.svg) ](https://bintray.com/vektory79/docker/vektory79%3Aconnan-client/_latestVersion)
 
 Для использования пропишите в свой `.bashrc` алиас:
 
