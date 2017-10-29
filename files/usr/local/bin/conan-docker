@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+
+CONAN_HOME=$(cat /etc/container_environment/CONAN_HOME)
+
+usermod -d ${CONAN_HOME} system
+
+if [ "$1" == "bash" ]; then
+    shift 1
+    setuser system bash $@
+elif [ "$1" == "root" ]; then
+    shift 1
+    bash $@
+else
+    setuser system conan $@
+fi
