@@ -1,6 +1,7 @@
 # Клиент менеджера зависимостей [conan](https://conan.io/)
 
 [ ![Download](https://api.bintray.com/packages/vektory79/docker/vektory79%3Aconnan-client/images/download.svg) ](https://bintray.com/vektory79/docker/vektory79%3Aconnan-client/_latestVersion)
+[![Build Status](https://travis-ci.org/vektor-docker/conan-client.svg?branch=master)](https://travis-ci.org/vektor-docker/conan-client)
 
 Для запуска используйте следующую команду:
 
