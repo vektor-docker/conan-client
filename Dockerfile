@@ -1,4 +1,4 @@
-FROM javister-docker-docker.bintray.io/javister/javister-docker-python3:34
+FROM javister-docker-docker.bintray.io/javister/javister-docker-python3:34.1
 MAINTAINER Verbitsky Viktor <vektory79@gmail.com>
 
 COPY files /
